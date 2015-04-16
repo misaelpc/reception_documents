@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SQLContainer>
+    <SQLTable>
+        <name><![CDATA[acknowledgment]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>741.00</x>
+            <y>820.00</y>
+        </location>
+        <size>
+            <width>200.00</width>
+            <height>120.00</height>
+        </size>
+        <zorder>2</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INT]]></type>
+            <primaryKey>1</primaryKey>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
+            <uid><![CDATA[964CFE22-1BFD-494D-AF5C-A7F4F97DEAEF]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_receipt]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>receipt_acknowledgment</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[receipt_acknowledgment]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[9892FD33-1736-42D8-AB2A-13169BDE8EED]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[7841DD9B-BB07-43C0-A45E-83D0FC65F6A2]]></referencesTableUID>
+            <uid><![CDATA[BCB3B08C-BCB1-4C8D-A224-A1485567C94D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_delivery]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>delivery_ acknowledgment</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[delivery_ acknowledgment]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[6C63273A-1980-4FFC-9DFD-BC0EBD279F13]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[6EA8E7B5-F940-41AF-BDD8-4625FBA04302]]></referencesTableUID>
+            <uid><![CDATA[71EDF684-5C80-4994-A6D6-71BC2C1C8AF9]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_acceptance]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>acceptance_acknowledgment</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[acceptance_acknowledgment]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[A7566AAD-8C13-4334-9D38-0CCDEB30FD17]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[620248CC-E940-43BA-B915-9485C09B0FBE]]></referencesTableUID>
+            <uid><![CDATA[35EF25A4-7932-4EE9-B04C-9FA135665B50]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_rejection]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>rejection_acknowledgment</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[rejection_acknowledgment]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[BDAB2ADD-ADBF-4BB3-B60A-7A499293AA2E]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[4AEDCC9E-2155-4317-B9D1-32BC5F1D63FD]]></referencesTableUID>
+            <uid><![CDATA[0B9EE1FD-DDA0-40A6-ADEE-9ED9C5DB117D]]></uid>
+        </SQLField>
+        <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+        <labelWindowIndex><![CDATA[7]]></labelWindowIndex>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
+        <uid><![CDATA[263702C4-C19B-423D-8F14-3A8FFC430B17]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[rejection_acknowledgment]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>366.00</x>
+            <y>1333.00</y>
+        </location>
+        <size>
+            <width>200.00</width>
+            <height>260.00</height>
+        </size>
+        <zorder>7</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INT]]></type>
+            <primaryKey>1</primaryKey>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
+            <uid><![CDATA[BDAB2ADD-ADBF-4BB3-B60A-7A499293AA2E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[folio]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[E2F38358-CF51-4A91-B9CC-392A2A190355]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[stamp_date]]></name>
+            <type><![CDATA[DATETIME]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[0E50C3E6-0F24-48FE-BE78-48A39A148C07]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[validity_date]]></name>
+            <type><![CDATA[DATETIME]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[7F831EB5-AFAE-4344-B43C-B7AD098D0ABC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[shipping_type]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[86D25445-86CA-4303-8403-7DA170EB17A2]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[request_type]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[9433E62D-F371-4A90-BD01-EFEDB13E0656]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[document_stamp]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[CC294E74-A55B-431D-ACF6-276863C59DBD]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sat_stamp]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[F2DFD5D7-81BE-4D72-8E62-E456E2FB2C36]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[original_chain]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[4B1F950E-8A86-4C44-8B6E-1EF45C57EBAC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sat_certificate_number]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[D9279AAD-C029-43AF-852B-525B784DAF6D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[taxpayer_message]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <forcedUnique><![CDATA[0]]></forcedUnique>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[CCF239DE-08EA-46D7-8984-6FBFC8664D15]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_file]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>acknowledgment_fiile</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[acknowledgment_fiile]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[22282CC2-5808-481D-9FBD-AB3A0BD41CB8]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[E3F5E5C5-B9D7-4D60-8F0B-E06BEDC0C43C]]></referencesTableUID>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <uid><![CDATA[953C3499-611F-4AF5-A9D5-9757C58C2516]]></uid>
+        </SQLField>
+        <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+        <labelWindowIndex><![CDATA[4]]></labelWindowIndex>
+        <uid><![CDATA[4AEDCC9E-2155-4317-B9D1-32BC5F1D63FD]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[acceptance_acknowledgment]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>368.00</x>
+            <y>1013.00</y>
+        </location>
+        <size>
+            <width>226.00</width>
+            <height>240.00</height>
+        </size>
+        <zorder>6</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INT]]></type>
+            <primaryKey>1</primaryKey>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
+            <uid><![CDATA[A7566AAD-8C13-4334-9D38-0CCDEB30FD17]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[folio]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[A04AAF5E-459D-4B8E-94D2-0352F4ADBDCA]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[stamp_date]]></name>
+            <type><![CDATA[DATETIME]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[2E22E3F5-0A01-496E-AD6B-71764834EDA8]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[validity_date]]></name>
+            <type><![CDATA[DATETIME]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[9868047A-740F-484B-BA78-82B0C39C37B1]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[request_type]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[F1487131-FF28-4825-BC81-52565A3856E4]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[document_stamp]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[9502BBF4-FD32-4FC4-B70A-B480F13D22CC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sat_stamp]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[1BE66789-8BC7-40D6-95BF-CF8BED036C4F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[original_chain]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[original_chain]]></temporaryOriginalName>
+            <uid><![CDATA[335E1D60-F257-489E-8136-42F367E5F8A9]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sat_certificate_number]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[sat_certificate_number]]></temporaryOriginalName>
+            <uid><![CDATA[820EE192-17FA-458C-A4AD-E9120030282F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[taxpayer_message]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[message]]></temporaryOriginalName>
+            <uid><![CDATA[CD7611A1-EED9-4E10-A9D6-F339A590FC2A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_file]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>acknowledgment_fiile</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[acknowledgment_fiile]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[22282CC2-5808-481D-9FBD-AB3A0BD41CB8]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[E3F5E5C5-B9D7-4D60-8F0B-E06BEDC0C43C]]></referencesTableUID>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <uid><![CDATA[E60355A9-D5D0-4367-8C70-F14A468223F7]]></uid>
+        </SQLField>
+        <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+        <labelWindowIndex><![CDATA[3]]></labelWindowIndex>
+        <uid><![CDATA[620248CC-E940-43BA-B915-9485C09B0FBE]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[delivery_ acknowledgment]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>368.00</x>
+            <y>727.00</y>
+        </location>
+        <size>
+            <width>200.00</width>
+            <height>260.00</height>
+        </size>
+        <zorder>3</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INT]]></type>
+            <primaryKey>1</primaryKey>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
+            <temporaryOriginalName><![CDATA[id]]></temporaryOriginalName>
+            <uid><![CDATA[6C63273A-1980-4FFC-9DFD-BC0EBD279F13]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[version]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <temporaryOriginalName><![CDATA[version]]></temporaryOriginalName>
+            <uid><![CDATA[D6A0E6AD-1F49-43FE-A917-A07E80A79908]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[operation_number]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <uid><![CDATA[491C8617-9260-40AA-8B0A-514D3C05F7F2]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[acknowledgment_type]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[75F44E89-88BB-45D7-987F-6BFE73674F66]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[document_type]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[7AE219A2-3395-4578-9507-6FF1D96B2977]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[emitter_rfc]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <temporaryOriginalName><![CDATA[emitter]]></temporaryOriginalName>
+            <uid><![CDATA[2243D7D6-55CD-4F99-9A3B-50FD6DB60D1D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[presenation_date]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[62D85F78-F974-42C8-8BFA-38B21E82D0A3]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[stamp_date]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[signature_date]]></temporaryOriginalName>
+            <uid><![CDATA[48A97968-759E-449A-B732-AD4EC9A78C30]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[status]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[F8F81C68-9960-403A-89C7-BBEE01CEC01F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sat_response]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[8A231487-254F-46A7-B569-925F92CB970D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_file]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>acknowledgment_fiile</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[acknowledgment_fiile]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[22282CC2-5808-481D-9FBD-AB3A0BD41CB8]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[E3F5E5C5-B9D7-4D60-8F0B-E06BEDC0C43C]]></referencesTableUID>
+            <forcedUnique><![CDATA[0]]></forcedUnique>
+            <uid><![CDATA[3AA3BBDF-96A2-4200-9F5D-EC618524D448]]></uid>
+        </SQLField>
+        <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+        <labelWindowIndex><![CDATA[6]]></labelWindowIndex>
+        <temporaryOriginalName><![CDATA[delivery_a]]></temporaryOriginalName>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
+        <uid><![CDATA[6EA8E7B5-F940-41AF-BDD8-4625FBA04302]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[receipt_acknowledgment]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>369.00</x>
+            <y>463.00</y>
+        </location>
+        <size>
+            <width>205.00</width>
+            <height>240.00</height>
+        </size>
+        <zorder>4</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INT]]></type>
+            <primaryKey>1</primaryKey>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
+            <uid><![CDATA[9892FD33-1736-42D8-AB2A-13169BDE8EED]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[folio]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[3205FD3C-B86F-4D14-9B5E-A63FFADF744D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[receipt_date]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[640611F5-1CD0-4534-8A55-9AAF25BC516F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[validity_date]]></name>
+            <type><![CDATA[INT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[3138CE8D-4473-403A-8212-F7DF9CC15151]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[shipping_type]]></name>
+            <type><![CDATA[CHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[balance_shipping_type]]></temporaryOriginalName>
+            <uid><![CDATA[DE962233-0FC1-4CA7-B8F9-932D73C405B0]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[request_type]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[9339C41D-99C7-4B6D-A56F-ACD052513525]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[shipping_chain]]></name>
+            <type><![CDATA[INT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[shipping chain]]></temporaryOriginalName>
+            <uid><![CDATA[55AC6FBD-7FD0-4B48-AD6F-06AF1A635969]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[taxpayer_message]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[F4C27ABB-F603-4111-B495-41DD48A9DE1B]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_file]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>acknowledgment_fiile</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[acknowledgment_fiile]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[22282CC2-5808-481D-9FBD-AB3A0BD41CB8]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[E3F5E5C5-B9D7-4D60-8F0B-E06BEDC0C43C]]></referencesTableUID>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <uid><![CDATA[623DD8D8-8ED0-429A-829C-A6D7056DBB4D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[shipment_stamp]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[96D823F3-2A6C-4509-85F0-795365BE825D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[document_stamp]]></name>
+            <type><![CDATA[TEXT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[807CB0E6-B0A0-4514-8879-DE21DE51FC42]]></uid>
+        </SQLField>
+        <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+        <labelWindowIndex><![CDATA[2]]></labelWindowIndex>
+        <temporaryOriginalName><![CDATA[receipt_acknowledgment]]></temporaryOriginalName>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
+        <uid><![CDATA[7841DD9B-BB07-43C0-A45E-83D0FC65F6A2]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[client]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>609.00</x>
+            <y>67.00</y>
+        </location>
+        <size>
+            <width>200.00</width>
+            <height>100.00</height>
+        </size>
+        <zorder>0</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <primaryKey>1</primaryKey>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
+            <uid><![CDATA[64DE36DC-392B-464C-9AB1-E04342537D20]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[rfc]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[7CE0C294-3CE3-4794-97EF-ACF57BA66E07]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[mail]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[2EC19B2B-7B4B-4077-80B0-034FB07CD5CA]]></uid>
+        </SQLField>
+        <labelWindowIndex><![CDATA[5]]></labelWindowIndex>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
+        <uid><![CDATA[A5FD5D99-D208-40C5-A240-195FAEEB83A4]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[document]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>909.00</x>
+            <y>90.00</y>
+        </location>
+        <size>
+            <width>200.00</width>
+            <height>120.00</height>
+        </size>
+        <zorder>5</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INT]]></type>
+            <primaryKey>1</primaryKey>
+            <uid><![CDATA[A4E20B04-2FE0-4195-9898-7473EC30D4DE]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[emiter_rfc]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <uid><![CDATA[79F139CD-033F-4051-8C35-43F7BB96796F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[file_type]]></name>
+            <type><![CDATA[INT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[C615EEA9-8457-4DD1-9610-A86E548C1523]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_client]]></name>
+            <type><![CDATA[VARCHAR]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>client</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[client]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[64DE36DC-392B-464C-9AB1-E04342537D20]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[A5FD5D99-D208-40C5-A240-195FAEEB83A4]]></referencesTableUID>
+            <uid><![CDATA[D85AED16-DFB1-4970-BC66-F91B2AA0284F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[fk_acknowledgment]]></name>
+            <type><![CDATA[INT]]></type>
+            <referencesField>id</referencesField>
+            <referencesTable>acknowledgment</referencesTable>
+            <referencesField><![CDATA[id]]></referencesField>
+            <referencesTable><![CDATA[acknowledgment]]></referencesTable>
+            <sourceCardinality>0</sourceCardinality>
+            <destinationCardinality>0</destinationCardinality>
+            <referencesFieldUID><![CDATA[964CFE22-1BFD-494D-AF5C-A7F4F97DEAEF]]></referencesFieldUID>
+            <referencesTableUID><![CDATA[263702C4-C19B-423D-8F14-3A8FFC430B17]]></referencesTableUID>
+            <uid><![CDATA[FCB9E923-7EA9-4B2E-B0BB-8F9D31CD586F]]></uid>
+        </SQLField>
+        <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+        <labelWindowIndex><![CDATA[1]]></labelWindowIndex>
+        <uid><![CDATA[C5DAA682-F43C-4B01-ADB8-02F4FEA9BDBC]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[acknowledgment_fiile]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>30.00</x>
+            <y>910.00</y>
+        </location>
+        <size>
+            <width>200.00</width>
+            <height>100.00</height>
+        </size>
+        <zorder>1</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[INT]]></type>
+            <primaryKey>1</primaryKey>
+            <forcedUnique><![CDATA[1]]></forcedUnique>
+            <uid><![CDATA[22282CC2-5808-481D-9FBD-AB3A0BD41CB8]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[file]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[C97FD9B6-85E8-4336-B334-A4B661327236]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[filename]]></name>
+            <type><![CDATA[INT]]></type>
+            <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+            <temporaryOriginalName><![CDATA[id_1]]></temporaryOriginalName>
+            <uid><![CDATA[28597105-DCAF-4601-AC35-59B06AEECA8E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[hash]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[1690279E-76BD-41A4-BC5F-E3B6364BED82]]></uid>
+        </SQLField>
+        <didChangeNameDuringValidation><![CDATA[0]]></didChangeNameDuringValidation>
+        <labelWindowIndex><![CDATA[0]]></labelWindowIndex>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
+        <uid><![CDATA[E3F5E5C5-B9D7-4D60-8F0B-E06BEDC0C43C]]></uid>
+    </SQLTable>
+    <SQLDocumentInfo>
+        <encodedPrintInfo><![CDATA[BAtzdHJlYW10eXBlZIHoA4QBQISEhAtOU1ByaW50SW5mbwGEhAhOU09iamVjdACF
+koSEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCUhAFpDZKE
+hIQITlNTdHJpbmcBlIQBKw5OU1BNUGFnZUZvcm1hdIaShISEDU5TTXV0YWJsZURh
+dGEAhIQGTlNEYXRhAJSXgaoZhAdbNjU3MGNdPD94bWwgdmVyc2lvbj0iMS4wIiBl
+bmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBw
+bGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFRE
+cy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8
+ZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1Ib3Jpem9u
+dGFsUmVzPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNr
+ZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwv
+c3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8
+L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtleT5jb20uYXBwbGUucHJp
+bnQuUGFnZUZvcm1hdC5QTUhvcml6b250YWxSZXM8L2tleT4KCQkJCTxyZWFsPjcy
+PC9yZWFsPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxh
+Zzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwv
+YXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0
+LlBNT3JpZW50YXRpb248L2tleT4KCTxkaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnBy
+aW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJPHN0cmluZz5jb20uYXBwbGUuam9i
+dGlja2V0PC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0
+ZW1BcnJheTwva2V5PgoJCTxhcnJheT4KCQkJPGRpY3Q+CgkJCQk8a2V5PmNvbS5h
+cHBsZS5wcmludC5QYWdlRm9ybWF0LlBNT3JpZW50YXRpb248L2tleT4KCQkJCTxp
+bnRlZ2VyPjE8L2ludGVnZXI+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNr
+ZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8
+L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50
+LlBhZ2VGb3JtYXQuUE1TY2FsaW5nPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5h
+cHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFw
+cGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRp
+Y2tldC5pdGVtQXJyYXk8L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtl
+eT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTVNjYWxpbmc8L2tleT4KCQkJ
+CTxyZWFsPjE8L3JlYWw+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQu
+c3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8L2Rp
+Y3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBh
+Z2VGb3JtYXQuUE1WZXJ0aWNhbFJlczwva2V5PgoJPGRpY3Q+CgkJPGtleT5jb20u
+YXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQk8c3RyaW5nPmNvbS5h
+cHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50
+aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJPGFycmF5PgoJCQk8ZGljdD4KCQkJCTxr
+ZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFJlczwva2V5
+PgoJCQkJPHJlYWw+NzI8L3JlYWw+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50
+aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJ
+CQk8L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnBy
+aW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFNjYWxpbmc8L2tleT4KCTxkaWN0PgoJ
+CTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJPHN0
+cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJPGtleT5jb20uYXBw
+bGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCTxhcnJheT4KCQkJPGRp
+Y3Q+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNVmVydGlj
+YWxTY2FsaW5nPC9rZXk+CgkJCQk8cmVhbD4xPC9yZWFsPgoJCQkJPGtleT5jb20u
+YXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+
+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5
+PmNvbS5hcHBsZS5wcmludC5zdWJUaWNrZXQucGFwZXJfaW5mb190aWNrZXQ8L2tl
+eT4KCTxkaWN0PgoJCTxrZXk+UE1QUERQYXBlckNvZGVOYW1lPC9rZXk+CgkJPGRp
+Y3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+
+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5
+PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJh
+eT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+UE1QUERQYXBlckNvZGVOYW1lPC9rZXk+
+CgkJCQkJPHN0cmluZz5MZXR0ZXI8L3N0cmluZz4KCQkJCQk8a2V5PmNvbS5hcHBs
+ZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwv
+aW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtl
+eT5QTVBQRFRyYW5zbGF0aW9uU3RyaW5nUGFwZXJOYW1lPC9rZXk+CgkJPGRpY3Q+
+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJ
+CTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNv
+bS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4K
+CQkJCTxkaWN0PgoJCQkJCTxrZXk+UE1QUERUcmFuc2xhdGlvblN0cmluZ1BhcGVy
+TmFtZTwva2V5PgoJCQkJCTxzdHJpbmc+VVMgTGV0dGVyPC9zdHJpbmc+CgkJCQkJ
+PGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJ
+CTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJ
+PC9kaWN0PgoJCTxrZXk+UE1UaW9nYVBhcGVyTmFtZTwva2V5PgoJCTxkaWN0PgoJ
+CQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8
+c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20u
+YXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJ
+CQk8ZGljdD4KCQkJCQk8a2V5PlBNVGlvZ2FQYXBlck5hbWU8L2tleT4KCQkJCQk8
+c3RyaW5nPm5hLWxldHRlcjwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnBy
+aW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRl
+Z2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNv
+bS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNQWRqdXN0ZWRQYWdlUmVjdDwva2V5
+PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRv
+cjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4K
+CQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJ
+CQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5Q
+YWdlRm9ybWF0LlBNQWRqdXN0ZWRQYWdlUmVjdDwva2V5PgoJCQkJCTxhcnJheT4K
+CQkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCQkJPGludGVnZXI+MDwvaW50
+ZWdlcj4KCQkJCQkJPHJlYWw+NzM0PC9yZWFsPgoJCQkJCQk8cmVhbD41NzY8L3Jl
+YWw+CgkJCQkJPC9hcnJheT4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNr
+ZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJ
+CTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUu
+cHJpbnQuUGFnZUZvcm1hdC5QTUFkanVzdGVkUGFwZXJSZWN0PC9rZXk+CgkJPGRp
+Y3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+
+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5
+PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJh
+eT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3Jt
+YXQuUE1BZGp1c3RlZFBhcGVyUmVjdDwva2V5PgoJCQkJCTxhcnJheT4KCQkJCQkJ
+PHJlYWw+LTE4PC9yZWFsPgoJCQkJCQk8cmVhbD4tMTg8L3JlYWw+CgkJCQkJCTxy
+ZWFsPjc3NDwvcmVhbD4KCQkJCQkJPHJlYWw+NTk0PC9yZWFsPgoJCQkJCTwvYXJy
+YXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwv
+a2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwv
+YXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5m
+by5QTVBhcGVyTmFtZTwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5w
+cmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5q
+b2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0
+Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5
+PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1QYXBlck5hbWU8L2tleT4KCQkJ
+CQk8c3RyaW5nPm5hLWxldHRlcjwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxl
+LnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9p
+bnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5
+PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1VbmFkanVzdGVkUGFnZVJlY3Q8
+L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNy
+ZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJp
+bmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tl
+eT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJp
+bnQuUGFwZXJJbmZvLlBNVW5hZGp1c3RlZFBhZ2VSZWN0PC9rZXk+CgkJCQkJPGFy
+cmF5PgoJCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJCQk8aW50ZWdlcj4w
+PC9pbnRlZ2VyPgoJCQkJCQk8cmVhbD43MzQ8L3JlYWw+CgkJCQkJCTxyZWFsPjU3
+NjwvcmVhbD4KCQkJCQk8L2FycmF5PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50
+LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2Vy
+PgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5h
+cHBsZS5wcmludC5QYXBlckluZm8uUE1VbmFkanVzdGVkUGFwZXJSZWN0PC9rZXk+
+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9y
+PC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJ
+CQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJ
+CTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBh
+cGVySW5mby5QTVVuYWRqdXN0ZWRQYXBlclJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+
+CgkJCQkJCTxyZWFsPi0xODwvcmVhbD4KCQkJCQkJPHJlYWw+LTE4PC9yZWFsPgoJ
+CQkJCQk8cmVhbD43NzQ8L3JlYWw+CgkJCQkJCTxyZWFsPjU5NDwvcmVhbD4KCQkJ
+CQk8L2FycmF5PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0
+ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0
+PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC5Q
+YXBlckluZm8ucHBkLlBNUGFwZXJOYW1lPC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+
+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+
+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5w
+cmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0
+PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5wcGQuUE1QYXBl
+ck5hbWU8L2tleT4KCQkJCQk8c3RyaW5nPkxldHRlcjwvc3RyaW5nPgoJCQkJCTxr
+ZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8
+aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwv
+ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuQVBJVmVyc2lvbjwv
+a2V5PgoJCTxzdHJpbmc+MDAuMjA8L3N0cmluZz4KCQk8a2V5PmNvbS5hcHBsZS5w
+cmludC50aWNrZXQudHlwZTwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLnByaW50
+LlBhcGVySW5mb1RpY2tldDwvc3RyaW5nPgoJPC9kaWN0PgoJPGtleT5jb20uYXBw
+bGUucHJpbnQudGlja2V0LkFQSVZlcnNpb248L2tleT4KCTxzdHJpbmc+MDAuMjA8
+L3N0cmluZz4KCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC50eXBlPC9rZXk+
+Cgk8c3RyaW5nPmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0VGlja2V0PC9zdHJp
+bmc+CjwvZGljdD4KPC9wbGlzdD4KhpKEmZkLTlNQYXBlclNpemWGkoSEhAdOU1Zh
+bHVlAJSEASqEhAt7Q0dTaXplPWRkfZ+BZAKBGAOGkoSZmRZOU0hvcml6b250YWxs
+eUNlbnRlcmVkhpKEhIQITlNOdW1iZXIAn56El5cBhpKEmZkUTlNWZXJ0aWNhbGx5
+Q2VudGVyZWSGkqKShJmZDE5TTGVmdE1hcmdpboaShKOehIQBZKEShpKEmZkNTlNS
+aWdodE1hcmdpboaShKOeqKEShpKEmZkLTlNUb3BNYXJnaW6GkoSjnqihHoaShJmZ
+DU5TT3JpZW50YXRpb26GkoSjnqSXAIaShJmZFU5TSG9yaXpvbmFsUGFnaW5hdGlv
+boaSrpKEmZkUTlNWZXJ0aWNhbFBhZ2luYXRpb26Gkq6ShJmZDk5TQm90dG9tTWFy
+Z2luhpKEo56ooTSGkoSZmQ9OU1NjYWxpbmdGYWN0b3KGkoSjnqihAYaShJmZC05T
+UGFwZXJOYW1lhpKEmZkJbmEtbGV0dGVyhoaG
+]]></encodedPrintInfo>
+        <autoSizeTablesOption><![CDATA[0]]></autoSizeTablesOption>
+        <documentScaleFactor><![CDATA[0.404]]></documentScaleFactor>
+        <exportDialect><![CDATA[SQLServer]]></exportDialect>
+        <fileversion><![CDATA[3.1]]></fileversion>
+        <generator><![CDATA[com.malcolmhardie.sqleditor]]></generator>
+        <generatorVersion><![CDATA[2.0]]></generatorVersion>
+        <hideFieldIcons><![CDATA[0]]></hideFieldIcons>
+        <hideFieldTypes><![CDATA[0]]></hideFieldTypes>
+        <pageBoundariesVisible><![CDATA[0]]></pageBoundariesVisible>
+        <PageGridVisible><![CDATA[0]]></PageGridVisible>
+        <sidebarIndex><![CDATA[0]]></sidebarIndex>
+        <snapToGrid><![CDATA[0]]></snapToGrid>
+        <SourceSidebarWidth><![CDATA[276.000000]]></SourceSidebarWidth>
+        <uid><![CDATA[56BDBD11-10D6-4DA5-A43F-8DB0950BD2AA]]></uid>
+        <windowHeight><![CDATA[713.000000]]></windowHeight>
+        <windowLocationX><![CDATA[335.000000]]></windowLocationX>
+        <windowLocationY><![CDATA[4.000000]]></windowLocationY>
+        <windowScrollOrigin><![CDATA[{108, 0}]]></windowScrollOrigin>
+        <windowWidth><![CDATA[1105.000000]]></windowWidth>
+    </SQLDocumentInfo>
+    <AllowsIndexRenamingOnInsert><![CDATA[1]]></AllowsIndexRenamingOnInsert>
+    <containerName><![CDATA[model controller orginal container]]></containerName>
+</SQLContainer>
